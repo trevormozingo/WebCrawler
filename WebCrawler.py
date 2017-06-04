@@ -11,7 +11,7 @@ class Graph():
     try:
         cur.execute("CREATE TABLE LINK_TABLE (source_id int, dest_id int)")
         cur.execute("CREATE TABLE NAME_TABLE (target text)")
-        cur.execute("INSERT INTO NAME_TABLE (target) VALUES ('http://www.cnn.com')")
+        cur.execute("INSERT INTO NAME_TABLE (target) VALUES ('http://localhost')")
     except: 
         pass
 
