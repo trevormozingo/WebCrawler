@@ -1,0 +1,1 @@
+echo "SELECT * FROM NAME_TABLE;" | sqlite3  net.db
