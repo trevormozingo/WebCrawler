@@ -59,7 +59,7 @@ class Graph():
             source_target = Graph.fetch_target(Graph.scanQueue.pop())
             dest_targets = Graph.scan(source_target)
             if dest_targets == []:
-                return
+                continue
 
             for dest_target in dest_targets:         
                 print(dest_target)                 
